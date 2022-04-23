@@ -20,7 +20,7 @@ function Contactform(){
     <div class="row">
 
         <div class="col-md-9 mb-md-0 mb-5">
-            <form action="/contactsubmitted" id="contact-form" name="contact-form"   method="POST" >
+            <form action="/src/contactsubmitted" id="contact-form" name="contact-form"   method="POST" >
             {/* The input is for javascript to work with the netlify attribute */}
             <input type="hidden" name="form-name" value="contact-form" />
 
