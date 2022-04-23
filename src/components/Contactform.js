@@ -1,6 +1,13 @@
 import React from "react";
 
 function Contactform(){
+
+    // <form name="contact-form" netlify netlify-honeypot="bot-field" hidden>
+    //   <input type="text" name="name" />
+    //   <input type="email" name="email" />
+    //   <textarea name="message"></textarea>
+    // </form>
+
     return <div>
 
     
@@ -13,9 +20,9 @@ function Contactform(){
     <div class="row">
 
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form"  method="POST" data-netlify="true">
+            <form id="contact-form" name="contact-form"  method="POST" >
             {/* The input is for javascript to work with the netlify attribute */}
-            <input type="hidden" name="form-name" value="name_of_my_form" />
+            <input type="hidden" name="form-name" value="contact-form" />
 
 
                 <div class="row">
@@ -29,7 +36,7 @@ function Contactform(){
 
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control"/>
+                            <input type="email" id="email" name="email" class="form-control"/>
                             <label for="email" class="">Your email</label>
                         </div>
                     </div>
@@ -60,7 +67,9 @@ function Contactform(){
             </form>
 
             <div id="send-button" class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+            <button type="submit" class="btn btn-primary" >Send</button>
+
+                {/* <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a> */}
             </div>
             <div class="status"></div>
         </div>
