@@ -1,0 +1,84 @@
+.about-img{
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    margin-top: 15px;
+    width: 100%;
+}
+.About-section{
+    margin-top: 30px;
+}
+.card-text{
+    padding-left: 30px;
+}
+
+
+
+.columns{
+    /* margin-bottom: 25px; */
+}
+.contact-details{
+    position: relative;
+    bottom: 35px;
+}
+.contact-heading{
+    text-align: left;
+}
+#contactme{
+    text-align: left;
+    
+}
+#contact-logos{
+    position: relative;
+    bottom: 30px;
+}
+#contact-section{
+    margin-left: 25px;
+}
+
+.fa-brands{
+    margin-right: 10px;
+}
+
+.gallery{
+  
+    /* padding: 80px 0; */
+}
+.gallery img{
+    background-color: #ffff;
+    padding: 15px;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+#gallery-modal .modal-img{
+    width: 100%;
+}
+.icons{
+    margin-left: 850px;
+}
+img{
+    max-width: 100%;
+}
+.portfolio{
+    margin-right: 50px;
+}
+.px-3{
+    text-align: center;
+    
+}
+#send-button{
+    margin-top: 10px;
+}
+.stats{
+    font-size: 17px;
+    
+    margin-top: 30px;
+   
+    
+}
+
+.text{
+    color: black;
+    
+}
