@@ -64,13 +64,14 @@ function Contactform(){
                     </div>
                 </div>
 
+                <div id="send-button" class="text-center text-md-left">
+                    <button type="submit" class="btn btn-primary" >Send</button>
+                 </div>
+
             </form>
 
-            <div id="send-button" class="text-center text-md-left">
-            <button type="submit" class="btn btn-primary" >Send</button>
+            
 
-                {/* <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a> */}
-            </div>
             <div class="status"></div>
         </div>
 
