@@ -13,7 +13,10 @@ function Contactform(){
     <div class="row">
 
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="mail.php" method="POST" netlify>
+            <form id="contact-form" name="contact-form"  method="POST" data-netlify="true">
+            {/* The input is for javascript to work with the netlify attribute */}
+            <input type="hidden" name="form-name" value="name_of_my_form" />
+
 
                 <div class="row">
 
