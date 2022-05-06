@@ -5,7 +5,7 @@ import Gallery from "./components/Gallery";
 
 function Home(){
     return <div>
-        <Header title="Jordan Mccrae" text=" Height: 6'3
+        <Header title="Jordan Mccrae" text=" Height: 6'0
                 &nbsp;
                 Eyes: Brown
                 &nbsp;
