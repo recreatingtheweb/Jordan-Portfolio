@@ -12,10 +12,10 @@ function Aboutsection(){
                             <Link to="/contact" class="btn btn-lg btn-secondary fw-bold border-white bg-dark">Contact Me</Link>
                     </div>
                 </div>
-                <div class="col-md-5">
-                    <img class="about-img" src="https://media.istockphoto.com/photos/portrait-beautiful-young-woman-with-clean-fresh-skin-picture-id1329622588?b=1&k=20&m=1329622588&s=170667a&w=0&h=MrsM7nyIOW4Gt5PM5Vs6xYIMJ1nr1FLT9bvt0Sve-S4="  alt="gallery"/>
+                {/* <div class="col-md-5">
+                    <img style={{ margin: '15px' }}  class="gallery-item" src="https://media.istockphoto.com/photos/portrait-beautiful-young-woman-with-clean-fresh-skin-picture-id1329622588?b=1&k=20&m=1329622588&s=170667a&w=0&h=MrsM7nyIOW4Gt5PM5Vs6xYIMJ1nr1FLT9bvt0Sve-S4="  alt="gallery"/>
 
-                </div>
+                </div> */}
             </div>        
     </div>
 }
