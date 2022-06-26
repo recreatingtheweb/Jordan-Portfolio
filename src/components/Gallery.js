@@ -17,7 +17,7 @@ function Gallery(){
                 </div>
                 <div class="col">
                 <img src="/Jordan/four.jpeg"></img>
-                <img src="/Jordan/eight.jpeg"></img>
+                <img style = {{ marginTop : 30 }}src="/Jordan/eight.jpeg"></img>
                 </div>
                 <div class="col">
                 <img src="/Jordan/five.jpeg"></img>
@@ -40,7 +40,7 @@ function Gallery(){
               <img src="/Jordan/thirteen.jpeg"></img>
               </div>
               <div class="col">
-              <img src="/Jordan/fourteen.jpeg"></img>
+              <img  style = {{ marginTop : 30 }} src="/Jordan/fourteen.jpeg"></img>
               </div>
               <div class="col">
               <img src="/Jordan/fifteen.jpeg"></img>
