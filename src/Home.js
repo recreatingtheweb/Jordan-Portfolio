@@ -11,10 +11,7 @@ function Home(){
                 &nbsp;
                 Hair: Black
                 &nbsp;
-                Chest: 00/00
-                &nbsp;
-                Waist: 00
-                &nbsp;
+                
                 Shoes: 12"/> 
       <Gallery/>  
     </div>
