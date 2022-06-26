@@ -30,7 +30,7 @@ function Navbar(){
             Social Media
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            <li><a class="dropdown-item" href="#"><i class="fa-brands fa-instagram-square"></i>Instagram</a></li>
+            <li><a class="dropdown-item" href="https://www.instagram.com/jordan.a.mccrae/"><i class="fa-brands fa-instagram-square"></i>Instagram</a></li>
             <li><a class="dropdown-item" href="#"><i class="fa-brands fa-facebook-square"></i>Facebook</a></li>
             <li><a class="dropdown-item" href="#"><i class="fa-brands fa-tiktok"></i>Tik Tok</a></li>
           </ul>

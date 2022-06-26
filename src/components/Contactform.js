@@ -14,8 +14,8 @@ function Contactform(){
 <section id="contact-section" class="mb-4">
 
     <h2 id="contactme"  class="h1-responsive font-weight-bold  ">Contact me</h2>
-    <p id="contactme"   class=" w-responsive ">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        a matter of hours to help you.</p>
+    {/* <p id="contactme"   class=" w-responsive ">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+        a matter of hours to help you.</p> */}
 
     <div class="row">
 
