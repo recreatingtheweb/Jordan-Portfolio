@@ -11,7 +11,7 @@ function Contactform(){
     return <div>
 
     
-<section id="contact-section" class="mb-4">
+<section  style={{marginLeft: "10px"}} id="contact-section" class="mb-4">
 
     <h2 id="contactme"  class="h1-responsive font-weight-bold  ">Contact me</h2>
     {/* <p id="contactme"   class=" w-responsive ">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
@@ -65,7 +65,7 @@ function Contactform(){
                 </div>
 
                 <div id="send-button" class="text-center text-md-left">
-                    <button type="submit" class="btn btn-primary" >Send</button>
+                    <button type="submit" class="btn btn-primary bg-dark" >Send</button>
                  </div>
 
             </form>
@@ -75,7 +75,7 @@ function Contactform(){
             <div class="status"></div>
         </div>
 
-        <div id="contact-logos" class="col-md-3 text-center">
+        {/* <div id="contact-logos" class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
                 <li><i class="fas fa-map-marker-alt fa-2x"></i>
                     <p>San Francisco, CA 94126, USA</p>
@@ -89,7 +89,7 @@ function Contactform(){
                     <p>contact@mdbootstrap.com</p>
                 </li>
             </ul>
-        </div>
+        </div> */}
 
     </div>
 
